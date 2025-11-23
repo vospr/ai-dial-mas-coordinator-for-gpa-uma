@@ -30,7 +30,7 @@ class GPAGateway:
         #    with openai LLM through /chat/completions endpoint.
         #    BZW this app as well implements /chat/completions endpoint.
         # ---
-        # 1. Create AsyncDial
+        # 1. Create AsyncDial (api_version='2025-01-01-preview')
         # 2. Make call, you will need to provide such parameters:
         #       - it should stream response
         #       - prepared messages with `additional_instructions`
